@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="271.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projects.jogodavelha.Controller">
+   <children>
+      <Button fx:id="B1" layoutX="40.0" layoutY="66.0" mnemonicParsing="false" onAction="#B1Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B2" layoutX="107.0" layoutY="66.0" mnemonicParsing="false" onAction="#B2Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B3" layoutX="174.0" layoutY="66.0" mnemonicParsing="false" onAction="#B3Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B4" layoutX="40.0" layoutY="129.0" mnemonicParsing="false" onAction="#B4Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B6" layoutX="174.0" layoutY="129.0" mnemonicParsing="false" onAction="#B6Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B5" layoutX="107.0" layoutY="129.0" mnemonicParsing="false" onAction="#B5Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B8" layoutX="107.0" layoutY="192.0" mnemonicParsing="false" onAction="#B8Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B9" layoutX="174.0" layoutY="192.0" mnemonicParsing="false" onAction="#B9Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Button fx:id="B7" layoutX="40.0" layoutY="192.0" mnemonicParsing="false" onAction="#B7Action" prefHeight="57.0" prefWidth="61.0" style="-fx-font-size: 24;" />
+      <Text layoutX="362.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Símbolo: X" />
+      <Text layoutX="291.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jogador 1 " />
+      <Text layoutX="279.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informações do jogo" />
+      <Text fx:id="vitoriasJogador1" layoutX="291.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Vitórias:" />
+      <Separator layoutX="271.0" layoutY="106.0" prefHeight="5.0" prefWidth="178.0" />
+      <Text fx:id="vitoriasJogador2" layoutX="291.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Vitórias:" />
+      <Text layoutX="362.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Símbolo: O" />
+      <Text layoutX="291.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jogador 2" />
+      <Separator layoutX="271.0" layoutY="182.0" prefHeight="5.0" prefWidth="178.0" />
+      <Button fx:id="reiniciar" layoutX="285.0" layoutY="232.0" mnemonicParsing="false" onAction="#reiniciarAction" text="Reiniciar" />
+      <Button fx:id="sair" layoutX="358.0" layoutY="232.0" mnemonicParsing="false" onAction="#sairAction" text="Sair do jogo" />
+      <Text fx:id="empates" layoutX="291.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Empates:" />
+      <TextField fx:id="indicaJogador" alignment="TOP_CENTER" editable="false" layoutX="40.0" layoutY="23.0" prefHeight="25.0" prefWidth="196.0" text="Vez do jogador 1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
